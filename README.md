@@ -47,3 +47,6 @@ New projects will have the hook instaled by default.
 
 * To remove it from a specific project, it has to be removed from the project's .git directory. 
 
+
+## TODO
+* add a hook variation that allows to only push merges to a group of branches (use ```is_merge=$(git rev-parse -q --verify MERGE_HEAD)```).
