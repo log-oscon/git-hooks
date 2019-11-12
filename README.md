@@ -19,26 +19,26 @@ git config --global init.templatedir '~/.git-templates'
 
 ```
 
-* Create a directory to hold the global hooks:
+* create a directory to hold the global hooks:
 
 ```bash
 mkdir -p ~/.git-templates/hooks
 ```
 
-* copy one of the hooks available to the templates directory. Make sure to apply the correct filename to the hook being copied (Check [Githooks list](https://git-scm.com/docs/githooks)).
+* get one of the hooks available, and copy it to the templates directory. Make sure to apply the correct filename to the hook being copied (Check [Githooks list](https://git-scm.com/docs/githooks)).
 Example: 
 
 ```bash
 cp prehook-push-denied.sh ~/.git-templates/hooks/pre-push
 ```
 
-* Make it executable
+* make it executable
 
 ```
 chmod a+x ~/.git-templates/hooks/pre-push
 ```
 
-* If you like to add it to an existing project just re-init it: 
+* if you like to add it to an existing project just re-init it: 
 
 `[projectdir]$ git init`
 
