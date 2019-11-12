@@ -1,0 +1,23 @@
+
+https://stackoverflow.com/questions/27800512/bypass-pre-commit-hook-for-merge-commits
+git rev-parse -q --verify MERGE_HEAD
+
+
+Sourcetree and pre-commit hooks 
+https://medium.com/fantageek/sourcetree-and-pre-commit-hook-52545f22fe10
+
+https://www.shellcheck.net/
+
+
+If you wan't to delete the hook make sure that you remove it localy 
+rm .git/hooks/pre-push
+
+It does not seem to be possible to add a question on sourcetree/github desktop app 
+https://stackoverflow.com/questions/17930805/github-gui-client-dev-tty-device-not-configured
+
+
+get commit message in git hook - this could be an idea for not building some branches
+https://stackoverflow.com/questions/5393178/get-commit-message-in-git-hook
+
+Sourcetree commands
+https://github.com/yzhong52/SourceTreeX
